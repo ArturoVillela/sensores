@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensores Charlie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tituloApp">Sensores.</string>
+    <string name="title_activity_acelerometro">Acelerometro</string>
+    <string name="title_activity_magnetic_field_sensor">MagneticFieldSensor</string>
+
+
+    <!--titulos de los sensores    -->
+    <string name="ts_MagneticField">Sensor Magnetico</string>
+    <string name="ts_Acelerometro">Sensor Acelerometro</string>
+
+
+    <!--Descripciones de los sensores   -->
+    <string name="ds_MagneticField">Este sensor es usado para las brujulas..</string>
+    <string name="ds_Acelerometro">Este sensor es registramos las inclinaciones del celular.</string>
+
+
+
+
+
+</resources>

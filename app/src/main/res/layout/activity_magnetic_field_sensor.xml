@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.basicos.charlie.sensores.MagneticFieldSensor">
+
+    <TextView
+    android:text="@string/ts_MagneticField"
+    android:layout_margin="5dp"
+    android:layout_width="wrap_content"
+    android:textSize="25sp"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/ds_MagneticField"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:padding="40dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/pointer"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pointer" />
+        </FrameLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="force reset"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/button" />
+    </LinearLayout>
+
+</LinearLayout>
